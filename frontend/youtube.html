@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>YouTube Downloader</title>
+  <link rel="stylesheet" href="youtube.css">
+</head>
+<body>
+  <header>
+    <h1>📺 YouTube Downloader</h1>
+  </header>
+
+  <main>
+    <section class="input-section">
+      <input type="text" id="ytQuery" placeholder="Pesquisar vídeos ou cole link">
+      <button onclick="searchVideos()">Pesquisar</button>
+    </section>
+
+    <section id="videosContainer" class="cards-container"></section>
+  </main>
+
+  <footer>
+    <p>⚡ Feito para baixar vídeos e áudios do YouTube</p>
+  </footer>
+
+  <script src="youtube.js"></script>
+</body>
+</html>

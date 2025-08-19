@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f9;
+  margin: 0;
+  color: #333;
+}
+
+header {
+  background: #ff0000;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.input-section {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.input-section input {
+  padding: 10px;
+  width: 60%;
+  max-width: 400px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.input-section button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #ff0000;
+  color: white;
+  cursor: pointer;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.card h3 {
+  margin: 10px 0 5px;
+  font-size: 1rem;
+}
+
+.card p {
+  margin: 5px 0 10px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.card button {
+  margin: 5px 5px 0 5px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  background: #ff0000;
+  color: white;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #222;
+  color: white;
+  margin-top: 20px;
+}

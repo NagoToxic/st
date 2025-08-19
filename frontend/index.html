@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="A new web page" />
+        <meta name="robots" content="index, follow" />
+        <link rel="icon" href="favicon.ico" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Api</title>
+    </head>
+    <body>
+        <header>
+            <h1>📥 Central de Downloads</h1>
+            <input
+                type="text"
+                id="search"
+                placeholder="🔎 Buscar plataforma..."
+                onkeyup="filterPlatforms()"
+            />
+        </header>
+
+        <main>
+            <section id="platforms" class="cards-container">
+                <!-- Cards (exemplo inicial) -->
+                <div class="card" onclick="window.location.href='erome.html'">
+                    <h2>🔞 EroMe</h2>
+                    <p>Baixar vídeos e áudios do EroMe</p>
+                </div>
+
+                <div class="card" onclick="window.location.href='youtube.html'">
+                    <h2>🎵 YouTube</h2>
+                    <p>Baixar músicas e playlists</p>
+                </div>
+
+                <div class="card" onclick="openPlatform('instagram')">
+                    <h2>📸 Instagram</h2>
+                    <p>Baixar fotos, reels e stories</p>
+                </div>
+
+                <div class="card" onclick="openPlatform('tiktok')">
+                    <h2>🎶 TikTok</h2>
+                    <p>Baixar vídeos sem marca d’água</p>
+                </div>
+
+                <div class="card" onclick="openPlatform('twitter')">
+                    <h2>🐦 Twitter (X)</h2>
+                    <p>Baixar vídeos e mídias</p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>⚡ Feito para organizar todos os downloads em um só lugar.</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
